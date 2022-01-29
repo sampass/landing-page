@@ -1,7 +1,6 @@
 body {
     height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -10,6 +9,7 @@ body {
 
 .header{
     display: flex;
+    padding-left: 100px;
 }
 
 .flex_control {
@@ -20,6 +20,22 @@ body {
 
 .image_section {
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.image_row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.image_column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 200px;
 }
 
 .dark_background {
@@ -33,4 +49,6 @@ body {
 .images {
     width: 200px;
     height: 200px;
+    border: #3882f6;
+    border-width: 10px;
 }
