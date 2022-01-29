@@ -1,8 +1,25 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
     
+}
+
+.header{
+    display: flex;
+}
+
+.flex_control {
+    flex: 1;
+    display:flex;
+    
+}
+
+.image_section {
+    flex-direction: column;
 }
 
 .dark_background {
@@ -11,4 +28,9 @@ body {
 
 .quote {
     background-color: #E5E7eb;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
 }
