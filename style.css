@@ -7,7 +7,7 @@ body {
     
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-around;
     color: #f9faf8;
@@ -68,6 +68,20 @@ h1  {
 
 .quote {
     background-color: #E5E7eb;
+    height: 400px;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 300px;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .images {
@@ -75,6 +89,7 @@ h1  {
     height: 200px;
     border: #3882f6;
     border-width: 10px;
+    border-radius: 8px;
 }
 
 button {
@@ -84,4 +99,35 @@ button {
     width: 100px;
     height: 30px;
     text-align: center;
+}
+
+.cta {
+    flex: 1;
+    padding: 100px 500px;
+    justify-content: center;
+    
+}
+
+.blue_box {
+    background-color: #3882f6;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue_box > button {
+    border-color: white;
+}
+
+.blue_box > div {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
